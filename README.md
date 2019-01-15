@@ -1,1 +1,1 @@
-# parallelismCourse
+# Parallelism Course
