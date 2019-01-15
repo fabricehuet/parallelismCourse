@@ -23,7 +23,7 @@ void simpleLoop() {
 }
 
 void cpuIntensiveLoop() {
-  for(int i=0;i<3000;i++) {
+  for(int i=0;i<100;i++) {
       isAPrime(i);
   }
 }
