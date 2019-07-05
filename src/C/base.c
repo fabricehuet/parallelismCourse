@@ -23,10 +23,15 @@ void simpleLoop() {
 }
 
 void cpuIntensiveLoop() {
-  for(int i=0;i<100;i++) {
+  for(int i=0;i<200000;i++) {
       isAPrime(i);
   }
+
+
 }
+
+
+
 
 //This is the main function of your program
 //it will be called automatically when you start
