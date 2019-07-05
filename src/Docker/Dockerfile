@@ -12,3 +12,9 @@ WORKDIR /home/test
 
 RUN wget https://raw.githubusercontent.com/fabricehuet/parallelismCourse/master/src/C/errorSharedOMP.c
 RUN gcc errorSharedOMP.c -o errorSharedOMP -lm -fopenmp
+
+ENTRYPOINT ["/home/test/errorSharedOMP"]
+## Commands
+#  docker build --tag=test_image .
+# docker create --name test test_image
+# docker  run test_image 10000
